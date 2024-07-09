@@ -1,9 +1,9 @@
 CXX          = c++
 CXXFLAGS     = -Wall -Wextra -Werror -std=c++98
 
-HEADERS      = $(wildcard *.hpp)
+HEADERS      = Zombie.hpp
 
-SRCS         = $(wildcard *.cpp)
+SRCS         = Zombie.cpp main.cpp zombieHorde.cpp
 OBJS         = $(SRCS:.cpp=.o)
 
 NAME         = ex01

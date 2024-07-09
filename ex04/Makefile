@@ -1,9 +1,9 @@
 CXX          = c++
 CXXFLAGS     = -Wall -Wextra -Werror -std=c++98
 
-HEADERS      = $(wildcard *.hpp)
+HEADERS      = Sed.hpp
 
-SRCS         = $(wildcard *.cpp)
+SRCS         = Sed.cpp main.cpp
 OBJS         = $(SRCS:.cpp=.o)
 
 NAME         = ex04
