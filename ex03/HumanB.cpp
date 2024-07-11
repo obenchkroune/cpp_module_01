@@ -5,6 +5,10 @@ HumanB::HumanB(std::string name)
 	_name = name;
 }
 
+HumanB::~HumanB(void)
+{
+}
+
 void HumanB::attack(void)
 {
 	if (!_weapon)

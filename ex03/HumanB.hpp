@@ -9,8 +9,9 @@ class HumanB {
 		Weapon		*_weapon;
 
 	public:
-		void setWeapon(Weapon &weapon);
 		HumanB(std::string name);
+		~HumanB(void);
+		void setWeapon(Weapon &weapon);
 		void attack(void);
 };
 

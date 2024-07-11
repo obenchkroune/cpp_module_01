@@ -1,5 +1,13 @@
 #include "Harl.hpp"
 
+Harl::Harl(void)
+{
+}
+
+Harl::~Harl(void)
+{
+}
+
 void Harl::debug(void)
 {
 	std::cout << "[DEBUG] I love having extra bacon for my 7XL-double-cheese-triple-pickle-special-ketchup burger. I really do!\n";
